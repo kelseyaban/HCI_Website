@@ -1756,6 +1756,18 @@
 	.align-center {
 		text-align: center;
 	}
+	
+	.align-center-features{
+		text-align: center;
+		
+	}
+
+	.align-center-features h2 {
+		font-weight: 400;
+		font-size: 400%;
+		
+	}
+
 
 	.align-right {
 		text-align: right;
@@ -1794,7 +1806,7 @@
 		}
 
 	section.wrapper, article.wrapper {
-		padding: 5em 0;
+		padding: 0.4em 0;
 	}
 
 	section.wrapper.new{
@@ -1828,6 +1840,7 @@
 			}
 
 			section.wrapper.style1 header p, article.wrapper.style1 header p {
+				
 				color: #bacee6;
 			}
 
@@ -2731,19 +2744,6 @@
 		}
 
 /* Header */
-
-	.subpage {
-		padding-top: 44px;
-	}
-
-		.subpage #header {
-			background: #162577;
-			top: 0;
-			height: 44px;
-			line-height: 44px;
-			position: fixed;
-		}
-
 	#header {
 		color: #aec2db;
 		cursor: default;
@@ -2791,6 +2791,9 @@
 			text-decoration: none;
 			font-size: 20px;
 		}
+		
+
+		
 
 			#header a:hover {
 				color: #4c606d;
