@@ -1762,7 +1762,7 @@
 		
 	}
 
-	align-center-features h2{
+	.align-center-features h2{
 			font-weight: 400;
 			font-size: 400%;
 			
@@ -1842,7 +1842,7 @@
 
 			section.wrapper.style1 header p, article.wrapper.style1 header p {
 				
-				color: #bacee6;
+				color: #a6b1be;
 			}
 
 			section.wrapper.style1 h3, article.wrapper.style1 h3 {
@@ -1868,7 +1868,7 @@
 				}
 
 				section.wrapper header p, article.wrapper header p {
-					font-size: .9em;
+					font-size: .10em;
 				}
 
 		}
@@ -1886,7 +1886,7 @@
 		}
 
 	header p {
-		color: #bbb;
+		color: #857e7e;
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
