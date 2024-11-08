@@ -1681,7 +1681,7 @@
 	}
 
 	h3 {
-		font-size: 1.7em;
+		font-size: 1.9em;
 	}
 
 	h4 {
@@ -1764,7 +1764,7 @@
 
 	.align-center-features h2{
 			font-weight: 400;
-			font-size: 400%;
+			font-size: 360%;
 			
 	}
 	
@@ -1836,13 +1836,14 @@
 			color: #bacee6;
 		}
 
+
 			section.wrapper.style1 header h2, article.wrapper.style1 header h2 {
-				color: #fff;
+				color: #f5f1f1;
 			}
 
 			section.wrapper.style1 header p, article.wrapper.style1 header p {
 				
-				color: #a6b1be;
+				color: #caced3;
 			}
 
 			section.wrapper.style1 h3, article.wrapper.style1 h3 {
@@ -1886,9 +1887,13 @@
 		}
 
 	header p {
-		color: #857e7e;
+		color: #86878b;
 		position: relative;
 		margin: 0 0 1.5em 0;
+	}
+	header p.roles{
+		padding-top: 6%;
+		color: #bacee6;
 	}
 
 	header h2 + p {
@@ -1906,6 +1911,14 @@
 	header h6 + p {
 		font-size: 0.9em;
 		margin-top: -0.6em;
+	}
+
+	header .feborder{
+		border-top: 1px solid #c4bfbf;
+    width: 40%; 
+    margin: 0 auto; 
+    padding-top: 3em;
+    
 	}
 
 /* Flex */
@@ -2803,7 +2816,7 @@
 		
 
 			#header a:hover {
-				color: #4c606d;
+				color: #60a3d9;
 			}
 
 			#header a:last-child {
@@ -2977,6 +2990,11 @@
 		text-align: center;
 
 	}
+	#header .logo img {
+    height: 85px;  
+    width: auto;   
+    max-width: 100%; 
+}
 
 		#banner h1 {
 			font-size: 3.5em;
@@ -3069,10 +3087,6 @@
 
 
 
-	#footer ul.icons li .icon {
-		font-size: 0.58em;
-	}
-
 	@media screen and (max-width: 736px) {
 
 		#footer .inner {
@@ -3087,13 +3101,6 @@
 			order: 2;
 		}
 
-		#footer ul {
-			-ms-flex-order: 1;
-			-moz-order: 1;
-			-webkit-order: 1;
-			-ms-order: 1;
-			order: 1;
-		}
 
 		#footer .flex {
 			-moz-flex-direction: column;
