@@ -23,6 +23,20 @@
 	padding-top: 5%;
 	text-align: center;
 }
+
+
+.pitch {
+	max-width: 800px; 
+	margin: auto; 
+}
+
+.pitch img {
+	width: 100%; 
+	height: auto; 
+	border-radius: 10px; 
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
 .image.fit img {
 	width: 100%;
 	height: auto;
@@ -1664,7 +1678,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #528cd4;
+		color: #7c2d92;
 		font-weight: 500;
 		line-height: 1.5;
 		margin: 0 0 1em 0;
@@ -1676,12 +1690,13 @@
 		}
 
 	h2 {
-		font-size: 1.75em;
-		font-weight: 400;
+		font-size: 1.90em;
+		font-weight: 420;
 	}
 
 	h3 {
-		font-size: 1.9em;
+		font-size: 2em;
+		font-weight: 400;
 	}
 
 	h4 {
@@ -1764,7 +1779,7 @@
 
 	.align-center-features h2{
 			font-weight: 400;
-			font-size: 360%;
+			font-size: 350%;
 			
 	}
 	
@@ -1832,8 +1847,8 @@
 		}
 
 		section.wrapper.style1, article.wrapper.style1 {
-			background: #162577;
-			color: #bacee6;
+			background: #7c2d92;
+			color: #ffffff;
 		}
 
 
@@ -1893,7 +1908,7 @@
 	}
 	header p.roles{
 		padding-top: 6%;
-		color: #bacee6;
+		color: #ffffff;
 	}
 
 	header h2 + p {
@@ -1914,7 +1929,7 @@
 	}
 
 	header .feborder{
-		border-top: 1px solid #c4bfbf;
+		border-top: 1px solid #510458;
     width: 40%; 
     margin: 0 auto; 
     padding-top: 3em;
@@ -1989,7 +2004,7 @@
 
 				.flex.flex-3 article {
 					width: 100%;
-					border-bottom: 1px solid #dbdbdb;
+					border-bottom: 1px solid #510458;
 					padding-bottom: 2.5em;
 					margin-bottom: 3em;
 				}
@@ -2765,7 +2780,7 @@
 
 /* Header */
 	#header {
-		color: #aec2db;
+		color: #f8f8f8;
 		cursor: default;
 		height: 3.25em;
 		left: 0;
@@ -2816,7 +2831,7 @@
 		
 
 			#header a:hover {
-				color: #60a3d9;
+				color: #b1a4b4;
 			}
 
 			#header a:last-child {
@@ -2903,7 +2918,7 @@
 		position: fixed;
 		right: 0;
 		top: 0;
-		background: #162577;
+		background: #7c2d92;
 		color: #d4e0ef;
 		height: 100%;
 		max-width: 80%;
@@ -2982,7 +2997,7 @@
 
 	#banner {
 		padding: 10em 0 1em 0;
-		background-color: #162577;
+		background-color: #7c2d92;
 		background-size: cover;
 		background-position: top;
 		background-attachment: fixed;
@@ -2991,8 +3006,8 @@
 
 	}
 	#header .logo img {
-    height: 85px;  
-    width: auto;   
+    height: 100px;  
+    width: 100px;   
     max-width: 100%; 
 }
 
