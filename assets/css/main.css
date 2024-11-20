@@ -2779,7 +2779,7 @@
 		}
 
 /* Header */
-	#header {
+	#header nav{
 		color: #f8f8f8;
 		cursor: default;
 		height: 3.25em;
@@ -2798,20 +2798,23 @@
 			position: relative;
 			
 		}
+		#header .logoname{
+			color: #ffffff;
+			font-weight: 520;
+			font-size: 2em;
+			display: flex;
+			align-items: center; 
+		}
 
 		#header .logo {
-			color: #ffffff;
 			display: inline-block;
-			font-weight: 600;
-			height: 30px;
+			height: 10px;
 			height: inherit;
 			left: 0;
-			line-height: inherit;
 			margin: 0;
 			padding: 0;
 			position: absolute;
-			top: 0;
-			font-size: 3em;
+			top: 2.4em;
 			
 		}
 
