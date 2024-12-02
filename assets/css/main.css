@@ -37,6 +37,20 @@
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
+
+.poster {
+	padding-top: 5%;
+	max-width: 800px; 
+	margin: auto; 
+}
+
+.poster img {
+	width: 100%; 
+	height: auto; 
+	border-radius: 10px; 
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
 .image.fit img {
 	width: 100%;
 	height: auto;
@@ -1608,7 +1622,7 @@
 /* Type */
 
 	body, input, select, textarea {
-		color: #9a9a9a;
+		color: #171616;
 		font-family: "Raleway", Arial, Helvetica, sans-serif;
 		font-size: 13pt;
 		font-weight: 300;
@@ -1902,10 +1916,11 @@
 		}
 
 	header p {
-		color: #86878b;
+		color: #282424;
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
+	
 	header p.roles{
 		padding-top: 6%;
 		color: #ffffff;
